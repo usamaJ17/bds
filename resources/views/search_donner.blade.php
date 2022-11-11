@@ -1,7 +1,7 @@
 @php
     $load=true;
 @endphp
-<x-header title="Welcome {{session('name')}}" :load="$load" />
+<x-Header title="Welcome {{session('name')}}" :load="$load" />
 @extends('layout.main')
 @section('main-section')
 
