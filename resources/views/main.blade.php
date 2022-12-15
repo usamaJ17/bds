@@ -65,7 +65,7 @@
         </nav>
     </header>
     <!-- hero section -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-gray-100 dark:bg-gray-900">
         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div class="mr-auto place-self-center lg:col-span-7">
                 <br>
@@ -90,7 +90,7 @@
     </section>
     <!-- hero section image bar -->
     <!-- about -->
-    <section class="bg-gray-100 dark:bg-gray-800">
+    <section class="bg-white dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
@@ -140,7 +140,7 @@
                                 <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                     <div class="pr-3 font-medium text-gray-900 dark:text-white">Mr. habib-Ur-rehman
                                     </div>
-                                    <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Advisor
+                                    <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">Advisor
                                     </div>
                                 </div>
                             </figcaption>
@@ -166,7 +166,7 @@
                                 <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/3.jpg')}}" alt="profile picture">
                                 <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                     <div class="pr-3 font-medium text-gray-900 dark:text-white">Fatima Faheem</div>
-                                    <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">President
+                                    <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">President
                                     </div>
                                 </div>
                             </figcaption>
@@ -199,7 +199,7 @@
                             <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/4.jpg')}}" alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Ammar Yasir</div>
-                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Vice President
+                                <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">Vice President
                                 </div>
                             </div>
                         </figcaption>
@@ -229,7 +229,7 @@
                             <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/5.jpg')}}" alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Abdul Subhan</div>
-                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">General Secretary
+                                <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">General Secretary
                                 </div>
                             </div>
                         </figcaption>
@@ -257,7 +257,7 @@
                             <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/2.jpg')}}" alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Anss Shahzad</div>
-                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">joint Secretary
+                                <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">joint Secretary
                                 </div>
                             </div>
                         </figcaption>
@@ -284,7 +284,7 @@
                             <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/7.jpg')}}" alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Muhammad Hassan Ijaz</div>
-                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Public Relation
+                                <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">Public Relation
                                 </div>
                             </div>
                         </figcaption>
@@ -310,7 +310,7 @@
                             <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/6.jpg')}}" alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Ghulam Hur</div>
-                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Director General
+                                <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">Director General
                                 </div>
                             </div>
                         </figcaption>
@@ -336,7 +336,7 @@
                             <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/1.jpg')}}" alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Nabeel Ur Rehman</div>
-                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Treasurer
+                                <div class="pl-3 text-sm font-medium text-gray-900 dark:text-gray-200">Treasurer
                                 </div>
                             </div>
                         </figcaption>
@@ -448,7 +448,7 @@
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Abdullah Khan</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Blood Manager
+                                <div class="pl-3 text-sm font-light text-gray-900 dark:text-gray-400">Ex-Blood Manager
                                 </div>
                             </div>
                         </figcaption>
@@ -477,7 +477,7 @@
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Mehboob Mushtaq Joiya</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Blood Manager
+                                <div class="pl-3 text-sm font-light text-gray-900 dark:text-gray-400">Ex-Blood Manager
                                 </div>
                             </div>
                         </figcaption>
@@ -506,7 +506,7 @@
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Imran Mehboob</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-General
+                                <div class="pl-3 text-sm font-light text-gray-900 dark:text-gray-400">Ex-General
                                     Secretary
                                 </div>
                             </div>
@@ -535,7 +535,7 @@
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Hafiz Waseem</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Blood Manager
+                                <div class="pl-3 text-sm font-light text-gray-900 dark:text-gray-400">Ex-Blood Manager
                                 </div>
                             </div>
                         </figcaption>
@@ -562,7 +562,7 @@
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Usman Akbar</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Documentation
+                                <div class="pl-3 text-sm font-light text-gray-900 dark:text-gray-400">Ex-Documentation
                                     Committee</div>
                             </div>
                         </figcaption>
@@ -865,7 +865,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="bg-white dark:bg-gray-900 text-center text-white">
+    <footer class="bg-gray-100 dark:bg-gray-900 text-center text-white">
         <div class="container p-4">
             <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4">
                 <div class="lg:mb-0 mb-4">
