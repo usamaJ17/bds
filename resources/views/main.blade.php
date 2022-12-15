@@ -1,4 +1,4 @@
-{{-- This page is created using tailwing css --}}
+<!-- This page is created using tailwing css -->
 <!doctype html>
 <html lang="en">
 
@@ -19,84 +19,52 @@
 
 </head>
 
-<body class="bg-gray-900" cz-shortcut-listen="true">
-
-    {{-- nav-header --}}
-
+<body class="bg-gray-800" cz-shortcut-listen="true">
+    <!--  -->
+    <!-- nav-header -->
     <header class="sticky top-0 z-50 w-full">
-        
-{{-- <nav class="border-gray-200 py-2.5 bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-60">
-    <div class="container flex flex-wrap justify-between items-center mx-auto">
-      <a href="https://flowbite.com/" class="flex items-center">
-          <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-      </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8">
-          <li>
-            <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a href="{{ route('admin_login') }}">
-                <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button>
-            </a>
-          </li>
-          <li>
-            <a href="{{ route('donner.index') }}">
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-red-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Reg as donor</button>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> --}}
-  
-<nav class="border-gray-200 py-2.5 bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-60">
-    <div class="container flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-        <a href="{{ url('/') }}" class="flex items-center">
-            <img src="{{ url('/frontend/images/logo.png') }}" class="h-6 mr-3 sm:h-9" alt="bds Logo" />
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-900">BDS KSK</span>
-        </a>
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-            <span class="sr-only">Open menu</span>
-            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="flex flex-col md:flex-row">
-              
-              <li>
-                <a href="{{ route('admin_login') }}">
-                    <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button>
+        <nav class="border-red-700 py-2.5 bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-60">
+            <div class="container flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="{{ url('/') }}" class="flex items-center">
+                    <img src="{{ url('/frontend/images/logo_front.png')}}" class="h-6 mr-4 sm:h-12 " alt="bds Logo" />
+                    <!-- <span class="center text-xl font-semibold whitespace-nowrap dark:text-red-700">BDS 
+                        <br>
+                        UET New Campus</span> -->
                 </a>
-              </li>
-              <li>
-                <a href="{{ route('donor.index') }}">
-                    <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-red-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Reg as donor</button>
-                </a>
-              </li>
-            </ul>
-          </div>
-        {{-- <div class="flex items-center lg:order-2">
-            <a href="{{ route('donner.index') }}">
-                <button type="button"
-                    class="text-white bg-gradient-to-br from-pink-500 to-red-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Reg
-                    as donor</button>
-            </a>
-            <a href="{{ route('admin_login') }}">
-                <button type="button"
-                    class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button>
-            </a>
-        </div> --}}
-    </div>
-</nav>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="flex flex-col md:flex-row">
+
+                        <li>
+                            <a href="{{route('admin_login')}}">
+                                <button type="button"
+                                    class="text-white bg-gradient-to-br from-red-800 to-red-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{url('/donor')}}">
+                                <button type="button"
+                                    class="text-white bg-gradient-to-br from-red-800 to-red-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-small  rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Reg
+                                    as donor</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+        </nav>
     </header>
-
-    {{-- hero section --}}
-
+    <!-- hero section -->
     <section class="bg-white dark:bg-gray-900">
         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div class="mr-auto place-self-center lg:col-span-7">
@@ -110,43 +78,18 @@
                     gift to someone's life. Get up now and be the reason for someone's heartbeat.
                 </p>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="{{ url('/frontend/images/blood_bag.png') }}" alt="hero image">
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex animate-pulse rounded-full">
+                <img src="https://bdsuet.com/frontend/images/blood_bag.png" alt="hero image">
             </div>
+            <!-- <span class="inline-block animate-pulse rounded-full p-2 bg-teal-400 text-white text-sm">
+                <svg class="w-6 h-6 mx-auto" xmlns="https://bdsuet.com/frontend/images/blood_bag.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" /> -->
+            <!-- </svg> -->
+            </span> -->
         </div>
     </section>
-
-    {{-- hero section image bar --}}
-
-    <section class="bg-white dark:bg-gray-900">
-        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-12">
-            <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-5">
-                <a href="https://www.thenews.com.pk/print/329553-dire-need-of-motivation-for-blood-donation-in-pakistan"
-                    class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
-                    <img src="{{ url('/frontend/images/thenews-dark.png') }}" class="h-9 artical_logo">
-                </a>
-                <a href="https://www.who.int/news-room/questions-and-answers/item/blood-products-why-should-i-donate-blood"
-                    class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
-                    <img src="{{ url('/frontend/images/who-dark.png') }}" class="h-9 artical_logo">
-                </a>
-                <a href="https://moffitt.org/endeavor/archive/the-importance-of-blood-donations/"
-                    class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
-                    <img src="{{ url('/frontend/images/moffitt-dark.png') }}" class="h-9 artical_logo">
-                </a>
-                <a href="https://centromedicoabc.com/en/digital-magazine/why-is-blood-donation-important/"
-                    class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
-                    <img src="{{ url('/frontend/images/abc-dark.png') }}" class="h-9 artical_logo">
-                </a>
-                <a href="https://www.blood.co.uk/why-give-blood/"
-                    class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
-                    <img src="{{ url('/frontend/images/blood-dark.png') }}" class="h-9 artical_logo">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    {{-- about --}}
-
+    <!-- hero section image bar -->
+    <!-- about -->
     <section class="bg-gray-100 dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 
@@ -164,45 +107,301 @@
                         day of inception in 2017, BDS has solved many cases. Hail Red Army!
                     </p>
                 </div>
-                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-                    src="{{ url('/frontend/images/about_section.png') }}" alt="Blood Donation">
+                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-pulse rounded-full"
+                    src="https://bdsuet.com/frontend/images/about_section.png" alt="Blood Donation">
             </div>
         </div>
     </section>
+    <!-- Current hirarchy -->
+    <section class="bg-gray-100 dark:bg-gray-900">
+        <div id="controls-carousel" class="relative max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6"
+            data-carousel="static">
+            <h2
+                class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+                Advisor & Current Hierarchy 19 </h2>
+            <!-- Carousel wrapper -->
+            <div class="overflow-hidden relative h-[28.1rem] rounded-lg sm:h-80 xl:h-80 2xl:h-96">
+                <!-- item 0 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Giving blood is a
+                                uniquely powerful act.
+                                Effective coordination can dramatically increase its life-saving impact. Join us in
+                                saving lives."
+                            <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                                <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/8.jpeg')}}" alt="profile picture">
+                                <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                    <div class="pr-3 font-medium text-gray-900 dark:text-white">Mr. habib-Ur-rehman
+                                    </div>
+                                    <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Advisor
+                                    </div>
+                                </div>
+                            </figcaption>
+                    </figure>
+                </div>
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Joined BDS in the
+                                first year of my university and has seen all the ups and downs within the society but
+                                not once have I seen the members not working for the humanity.
+                                This platform has thrived despite all the odds.
+                                I hope I use my position to its full potential and, give this platform and its members
+                                what they truly deserve. Inshallah.
+                            <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                                <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/3.jpg')}}" alt="profile picture">
+                                <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                    <div class="pr-3 font-medium text-gray-900 dark:text-white">Fatima Faheem</div>
+                                    <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">President
+                                    </div>
+                                </div>
+                            </figcaption>
+                    </figure>
+                </div>
 
-    {{-- receord section --}}
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"BDS, A unique
+                                society where serving Humanity took place. Blood Donation is not just giving Blood to
+                                other person, actually you are Donating other person a Second life to live. My
+                                experience in BDS is tremendous. BDS is a Plateform that provided me an opportunity to
+                                serve Humantiy.
+                                We can't only save one life but we save is a whole family that counts on that person's
+                                life."
+                                <!-- I learned many things such as; Team-Work, Leadership but the most important of that is; 
+                                By Donating Blood, We can't only save one life but we save is a whole family that counts on 
+                                that person's life. -->
+                            </p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/4.jpg')}}" alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Ammar Yasir</div>
+                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Vice President
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
 
-    <section class="bg-white dark:bg-gray-900" id="counter_box">
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"BDS has been and
+                                continues to be
+                                one of the most innovative, effective, and impactful platforms with which I have ever
+                                worked.
+                                From organising blood donors to managing and guiding the many teams that collaborate in
+                                a framework.
+                                A functional forum that helps mankind through
+                                a well-organized and constantly updated hierarchical network."</p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/5.jpg')}}" alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Abdul Subhan</div>
+                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">General Secretary
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"BDS Uet New Campus
+                                has grown really well. It's been three years since I joined BDS and it's really working
+                                for a great cause and motivates me to do good for humanity. It helps me to think that
+                                there are still people left in this world who really care about others. It has been a
+                                great privilege to be part of something great.
+                                It seems like a small society but the work that is being done is what makes it great."
+                            </p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/2.jpg')}}" alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Anss Shahzad</div>
+                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">joint Secretary
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">" Helping those in
+                                need is one of the most important things,
+                                and BDS has given me the opportunity to work for it. While this has brought many
+                                blessings, from planning to donating blood,
+                                many years have gone and we have all become stronger by the favour of Allah Almighty."
+                            </p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/7.jpg')}}" alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Muhammad Hassan Ijaz</div>
+                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Public Relation
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Item 6 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"You don't have to
+                                be a medical professional to save someone's life.
+                                Here at the Blood donor society, we know that giving blood is a selfless act.
+                                That's why we work to make it as easy, painless, and quick for all of our donors.
+                                A few hours, and you'll be helping to save lives all over the world."</p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/6.jpg')}}" alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Ghulam Hur</div>
+                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Director General
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Item 7 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">BDS, the first
+                                society of university which I joined in 2019. Before joining the society I had never
+                                donated blood and now I am proud that I have donated 4 times. Apart from this we also
+                                give rashan to needy people.
+                                In short, When you get a chance to do good, don't miss it."</p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/1.jpg')}}" alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Nabeel Ur Rehman</div>
+                                <div class="pl-3 text-sm font-medium text-gray-200 dark:text-gray-200">Treasurer
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-purple-800/40 group-hover:bg-purple-800/60 group-focus:ring-4 group-focus:ring-purple-800 group-focus:outline-none">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                    <span class="hidden">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-purple-800/40 group-hover:bg-purple-800/60 group-focus:ring-4 group-focus:ring-purple-800 group-focus:outline-none">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                        </path>
+                    </svg>
+                    <span class="hidden">Next</span>
+                </span>
+            </button>
+        </div>
+    </section>
+    <!-- receord section -->
+    <section class="bg-white dark:bg-gray-800" id="counter_box">
         <div
             class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div class="col-span-2 mb-8">
-                <p class="text-lg font-medium text-purple-600 dark:text-purple-500">Our Record</p>
-                <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
-                    Our Effort and devotion to numbers &nbsp; <i class="fa-solid fa-database text-purple-600 "></i></h2>
+                <p class="text-4xl font-bold text-red-600 dark:text-red-700">Our Record</p>
+                <h2 class="mt-3 mb-4 text-xl font-large tracking-tight text-gray-900 md:text-3xl dark:text-white">
+                    Our Effort and devotion <br> to numbers &nbsp; <i class="fa-solid fa-database text-red-600 "></i>
+                </h2>
                 <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">At <strong>BDS UET KSK</strong> we
                     dont just invest in helping other but also in keeping track of our progress, Which keeps us
                     motivated</p>
             </div>
             <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 text-center">
                 <div>
-                    <i
-                        class="fa-solid fa-list-ul mb-2 text-4xl text-purple-600 md:w-12 md:h-12 dark:text-purple-500"></i>
+                    <i class="fa-solid fa-list-ul mb-2 text-4xl text-red-600 md:w-12 md:h-12 dark:text-red-500"></i>
                     <h3 class="mb-2 text-2xl font-bold dark:text-white">
                         <p class="odometer" id="odometer_1">0</p>
                     </h3>
                     <p class="font-light text-gray-500 dark:text-gray-400">Total Cases Received</p>
                 </div>
                 <div>
-                    <i
-                        class="fa-solid fa-list-check mb-2 text-4xl text-purple-600 md:w-12 md:h-12 dark:text-purple-500"></i>
+                    <i class="fa-solid fa-list-check mb-2 text-4xl text-red-600 md:w-12 md:h-12 dark:text-red-500"></i>
                     <h3 class="mb-2 text-2xl font-bold dark:text-white">
                         <p class="odometer" id="odometer_2">0</p>
                     </h3>
                     <p class="font-light text-gray-500 dark:text-gray-400">Total Cases Solved</p>
                 </div>
                 <div>
-                    <i
-                        class="fa-solid fa-droplet mb-2 text-4xl text-purple-600 md:w-12 md:h-12 dark:text-purple-500"></i>
+                    <i class="fa-solid fa-droplet mb-2 text-4xl text-red-600 md:w-12 md:h-12 dark:text-red-500"></i>
                     <h3 class="mb-2 text-2xl font-bold dark:text-white">
                         <p class="odometer" id="odometer_3">0</p>
                     </h3>
@@ -210,7 +409,7 @@
                 </div>
                 <div>
                     <i
-                        class="fa-solid fa-hand-holding-heart mb-2 text-4xl text-purple-600 md:w-12 md:h-12 dark:text-purple-500"></i>
+                        class="fa-solid fa-hand-holding-heart mb-2 text-4xl text-red-600 md:w-12 md:h-12 dark:text-red-500"></i>
                     <h3 class="mb-2 text-2xl font-bold dark:text-white">RS
                         <p class="odometer" id="odometer_4">0</p>
                     </h3>
@@ -219,19 +418,20 @@
             </div>
         </div>
     </section>
-
-    {{-- testemonial --}}
-
-    <section class="bg-gray-100 dark:bg-gray-800">
+    <!-- testemonial -->
+    <section class="bg-gray-100 dark:bg-gray-900">
         <div id="controls-carousel" class="relative max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6"
             data-carousel="static">
+            <h2
+                class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+                Alumni</h2>
             <!-- Carousel wrapper -->
             <div class="overflow-hidden relative h-[28.1rem] rounded-lg sm:h-80 xl:h-80 2xl:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <figure class="max-w-screen-md mx-auto">
-                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
                                 fill="currentColor" />
@@ -244,11 +444,11 @@
                                 made some fantastic friends, and I will remember this part of my journey fondly."</p>
                         </blockquote>
                         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/abdullah.png') }}"
+                            <img class="w-10 h-10 rounded-full" src="https://bdsuet.com/frontend/images/abdullah.png"
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Abdullah Khan</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Blood Manager
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Blood Manager
                                 </div>
                             </div>
                         </figcaption>
@@ -258,8 +458,8 @@
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <figure class="max-w-screen-md mx-auto">
-                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
                                 fill="currentColor" />
@@ -273,11 +473,11 @@
                                 Allah be your supporter and helper."</p>
                         </blockquote>
                         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/joya.png') }}"
+                            <img class="w-10 h-10 rounded-full" src="https://bdsuet.com/frontend/images/joya.png"
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Mehboob Mushtaq Joiya</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Blood Manager
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Blood Manager
                                 </div>
                             </div>
                         </figcaption>
@@ -287,8 +487,8 @@
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <figure class="max-w-screen-md mx-auto">
-                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
                                 fill="currentColor" />
@@ -302,11 +502,12 @@
                                 humanity should join this society. Thank you BDS!"</p>
                         </blockquote>
                         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/imran.png') }}"
+                            <img class="w-10 h-10 rounded-full" src="https://bdsuet.com/frontend/images/imran.png"
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Imran Mehboob</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">General Secretary
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-General
+                                    Secretary
                                 </div>
                             </div>
                         </figcaption>
@@ -315,8 +516,8 @@
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <figure class="max-w-screen-md mx-auto">
-                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
                                 fill="currentColor" />
@@ -330,11 +531,11 @@
                                 never touched before."</p>
                         </blockquote>
                         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/waseem.png') }}"
+                            <img class="w-10 h-10 rounded-full" src="https://bdsuet.com/frontend/images/waseem.png"
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Hafiz Waseem</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Blood Manager
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Blood Manager
                                 </div>
                             </div>
                         </figcaption>
@@ -343,8 +544,8 @@
                 <!-- Item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <figure class="max-w-screen-md mx-auto">
-                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
                                 fill="currentColor" />
@@ -357,11 +558,11 @@
                                 shining."</p>
                         </blockquote>
                         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="{{ url('/frontend/images/usman.png') }}"
+                            <img class="w-10 h-10 rounded-full" src="https://bdsuet.com/frontend/images/usman.png"
                                 alt="profile picture">
                             <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div class="pr-3 font-medium text-gray-900 dark:text-white">Usman Akbar</div>
-                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Documentation
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Ex-Documentation
                                     Committee</div>
                             </div>
                         </figcaption>
@@ -397,10 +598,8 @@
             </button>
         </div>
     </section>
-
-    {{-- FAQ --}}
-
-    <section class="bg-white dark:bg-gray-900">
+    <!-- FAQ -->
+    <section class="bg-white dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 pb-8 pt-8 mx-auto lg:pb-24 lg:px-6">
             <h2
                 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
@@ -437,8 +636,8 @@
                             data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
                             aria-controls="accordion-flush-body-2">
                             <span>How long it takes during cross match procedure?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
@@ -457,8 +656,8 @@
                             data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
                             aria-controls="accordion-flush-body-3">
                             <span>How can we collaborate with BDS UET New Campus?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
@@ -468,8 +667,8 @@
                     <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
                         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
                             <p class="mb-2 text-gray-500 dark:text-gray-400">You can be a part of BDS just by
-                                registering as a donor (by filling the form <strong><a
-                                        href="{{ route('donor.index') }}" target="_blank">HERE</a></strong>), We
+                                registering as a donor (by filling the form <strong><a href="/donor"
+                                        target="_blank">HERE</a></strong>), We
                                 will contact you when your blood is required. Also you can message us from the form
                                 given below</p>
                         </div>
@@ -480,8 +679,8 @@
                             data-accordion-target="#accordion-flush-body-4" aria-expanded="false"
                             aria-controls="accordion-flush-body-4">
                             <span>What if we feel weakness after donation?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
@@ -501,8 +700,8 @@
                             data-accordion-target="#accordion-flush-body-5" aria-expanded="false"
                             aria-controls="accordion-flush-body-5">
                             <span>How to donate for BDS charity?</span>
-                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
@@ -519,65 +718,92 @@
             </div>
         </div>
     </section>
+    <!-- event -->
+    <section class="bg-gray-100 dark:bg-gray-900">
+        <!-- <h2
+            class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+            Events By BDS
+        </h2> -->
+        <div id="indicators-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="{{ url('/frontend/images/blood-camp-22.jpg')}}"
+                        class=" absolute block w-[50%] -translate-x-1/2 -translate-y-1/2 top-[55%] left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="{{ url('/frontend/images/orphanage-visit.png')}}"
+                        class="absolute block object-unset -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2"
+                        alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="{{ url('/frontend/images/old-age-home.jpg')}}"
+                        class="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="{{ url('/frontend/images/orphanage-visit-2021.jpg')}}"
+                        class="absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
 
-    {{-- event --}}
-
-    <section class="bg-gray-100 dark:bg-gray-800">
-        <div class="container px-5 py-2 mx-auto pt-8 lg:px-32 lg:pb-24">
-            <h2
-                class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
-                Our Events
-            </h2>
-            <div class="flex flex-wrap -m-1 md:-m-2">
-                <div class="flex flex-wrap" id="event-box">
-                    <a href="{{ url('/frontend/images/blood-camp-22.jpg') }}" class="w-1/4 p-1 md:p-2"
-                        data-sub-html="<h4>Blood Camp</h4><p>This was organized at UET, new campus. Up until now, BDS has arranged blood camps for Thalassemia patients in collaboration with different foundations.</p>">
-                        <img alt="img1" src="{{ url('/frontend/images/blood-camp-22.jpg') }}"
-                            class="block object-cover object-center w-full h-full rounded-lg my-image-box" />
-                    </a>
-                    <a href="{{ url('/frontend/images/winter-warm-drive.jpg') }}" class="w-1/4 p-1 md:p-2"
-                        data-sub-html="<h4>Winter Warm Drive</h4><p>Every winter BDS collect donation for warm drive and distribute warm blankets to those who sleep on the road or in open space</p>">
-                        <img alt="img1" src="{{ url('/frontend/images/winter-warm-drive.jpg') }}"
-                            class="block object-cover object-center w-full h-full rounded-lg my-image-box" />
-                    </a>
-                    <a href="{{ url('/frontend/images/old-age-home.jpg') }}" class="w-1/2 p-1 md:p-2"
-                        data-sub-html="<h4>Old Age Home visit</h4><p>That was a gift for old and lonely people at an old age home. We spent our day and gave them presents.</p>">
-                        <img alt="img1" src="{{ url('/frontend/images/old-age-home.jpg') }}"
-                            class="block object-cover object-center w-full h-full rounded-lg my-image-box" />
-                    </a>
-                    <a href="{{ url('/frontend/images/orphanage-visit.png') }}" class="w-1/2 p-1 md:p-2"
-                        data-sub-html="<h4>Orphanage visit</h4><p>Spending a day with orphans, giving them toys and candies. Making them feel as special as we possibly can.</p>">
-                        <img alt="img1" src="{{ url('/frontend/images/orphanage-visit.png') }}"
-                            class="block object-cover object-center w-full h-full rounded-lg my-image-box" />
-                    </a>
-                    <a href="{{ url('/frontend/images/blood-camp.png') }}" class="w-1/4 p-1 md:p-2"
-                        data-sub-html="<h4>Blood Testing Camp</h4><p>We organized at UET's new campus, set up a desk, tested students' blood groups, and registered them as donor.</p>">
-                        <img alt="img1" src="{{ url('/frontend/images/blood-camp.png') }}"
-                            class="block object-cover object-center w-full h-full rounded-lg my-image-box" />
-                    </a>
-                    <a href="{{ url('/frontend/images/orphanage-visit-2021.jpg') }}" class="w-1/4 p-1 md:p-2"
-                        data-sub-html="<h4>Orphanage visit</h4><p>It was in 2021. Spending a day with orphans, giving them toys and candies. Making them feel as special as we possibly can.</p>">
-                        <img alt="img1" src="{{ url('/frontend/images/orphanage-visit-2021.jpg') }}"
-                            class="block object-cover object-center w-full h-full rounded-lg my-image-box" />
-                    </a>
+                <!-- Item 6 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="{{ url('/frontend/images/winter-warm-drive.jpg')}}"
+                        class="absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
             </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <!-- <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button> -->
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6"
+                    data-carousel-slide-to="5"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-100/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-100/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
         </div>
     </section>
-
-    {{-- contact section --}}
-
-    <section class="overflow-hidden text-gray-100 bg-white dark:bg-gray-900" id="contact">
+    <!-- contact section -->
+    <section class="overflow-hidden text-gray-100 bg-white dark:bg-gray-800" id="contact">
         <div class="max-w-screen-xl px-4 pb-6 pt-8 mx-auto lg:pb-8 lg:px-6 ">
             <div class="mx-auto w-full max-w-2xl">
-                <h2
-                    class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
-                    Contact Us</h2>
+                <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white"> Contact Us</h2>
 
                 <form action="{{ route('contact-form') }}" method="POST" class="mt-10" id="contact_form">
-
-                    <!-- This is a working contact form.
-                   Get your free access key from: https://web3forms.com/  -->
 
                     @csrf
                     <div class="grid gap-6 sm:grid-cols-3">
@@ -638,10 +864,8 @@
             </div>
         </div>
     </section>
-
-    {{-- footer --}}
-
-    <footer class="bg-white dark:bg-gray-800 text-center text-white">
+    <!-- footer -->
+    <footer class="bg-white dark:bg-gray-900 text-center text-white">
         <div class="container p-4">
             <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4">
                 <div class="lg:mb-0 mb-4">
@@ -649,7 +873,7 @@
                 <div class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
                     <a href="#"
                         class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                        <img src="{{ url('/frontend/images/logo.png') }}" class="h-6 mr-3 sm:h-9"
+                        <img src="https://bdsuet.com/frontend/images/logo.png" class="h-6 mr-3 sm:h-9"
                             alt="Landwind Logo" />
                         BDS KSK
                     </a>
@@ -690,19 +914,45 @@
                 </div>
             </div>
         </div>
-    </footer>
 
+        <section>
+            <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-12">
+                <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-5">
+                    <a href="https://www.thenews.com.pk/print/329553-dire-need-of-motivation-for-blood-donation-in-pakistan"
+                        class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
+                        <img src="https://bdsuet.com/frontend/images/thenews-dark.png" class="h-9 artical_logo">
+                    </a>
+                    <a href="https://www.who.int/news-room/questions-and-answers/item/blood-products-why-should-i-donate-blood"
+                        class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
+                        <img src="https://bdsuet.com/frontend/images/who-dark.png" class="h-9 artical_logo">
+                    </a>
+                    <a href="https://moffitt.org/endeavor/archive/the-importance-of-blood-donations/"
+                        class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
+                        <img src="https://bdsuet.com/frontend/images/moffitt-dark.png" class="h-9 artical_logo">
+                    </a>
+                    <a href="https://centromedicoabc.com/en/digital-magazine/why-is-blood-donation-important/"
+                        class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
+                        <img src="https://bdsuet.com/frontend/images/abc-dark.png" class="h-9 artical_logo">
+                    </a>
+                    <a href="https://www.blood.co.uk/why-give-blood/"
+                        class="flex items-center lg:justify-center scale-75 hover:scale-95 ease-in duration-500">
+                        <img src="https://bdsuet.com/frontend/images/blood-dark.png" class="h-9 artical_logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
     <script>
         if (localStorage.getItem('color-theme') === 'light' || (!('color-theme' in localStorage) && window.matchMedia(
-                '(prefers-color-scheme: light)').matches)) {
+            '(prefers-color-scheme: light)').matches)) {
             var artical_images = document.getElementsByClassName('artical_logo');
             for (let index = 0; index < artical_images.length; index++) {
                 artical_images[index].src = artical_images[index].src.replace('dark', 'light');
             }
         }
-        var observer = new IntersectionObserver(function(entries) {
+        var observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting === true)
-                setTimeout(function() {
+                setTimeout(function () {
                     odometer_1.innerHTML = 1445;
                     odometer_2.innerHTML = 986;
                     odometer_3.innerHTML = 1357;
@@ -713,89 +963,95 @@
         });
         observer.observe(document.getElementById("counter_box"));
     </script>
-    @if ($errors->any() || isset($data))
-        <script>
-            document.getElementById("contact").scrollIntoView({
-                behavior: 'smooth'
-            });
-        </script>
-    @endif
+    <!-- @if ($errors->any() || isset($data)) -->
+    <script>
+        document.getElementById("contact").scrollIntoView({
+            behavior: 'smooth'
+        });
+    </script>
+    <!-- @endif -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
-    <script src="{{ url('js/lightgallery.min.js') }}"></script>
-    <script src="{{ url('js/lg-thumbnail.min.js') }}"></script>
-    <script src="{{ url('js/lg-fullscreen.min.js') }}"></script>
-    <script type="text/javascript">
+    {{-- <script src="https://bdsuet.com/js/lightgallery.min.js"></script>
+    <script src="https://bdsuet.com/js/lg-thumbnail.min.js"></script>
+    <script src="https://bdsuet.com/js/lg-fullscreen.min.js"></script> --}}
+    {{-- <script type="text/javascript">
         lightGallery(document.getElementById('event-box'), {
             plugins: [lgThumbnail, lgFullscreen],
             speed: 500,
             // ... other settings
         });
-    </script>
+    </script> --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        var url="{{route('contact-form')}}";
-                $('#contact_form').on('submit', function(e) {
-                    e.preventDefault(); 
+        var url = "{{ route('contact-form') }}";
+        $('#contact_form').on('submit', function (e) {
+            e.preventDefault();
 
-                    $("#contact_submit").text('Sending ...');
+            $("#contact_submit").text('Sending ...');
 
-                    $.ajax({
-                        type: "POST",
-                        url: url,
-                        data: $(this).serialize(),
-                        success: function( msg ) {
-                            $("#contact_submit").text('Send Message');
-                            const Toast = Swal.mixin({
-                            toast: true,
-                            position: 'top-right',
-                            customClass: {
-                                popup: 'colored-toast'
-                            },
-                            showConfirmButton: false,
-                            timer: 5000,
-                            timerProgressBar: true
-                            })
-                            Toast.fire({
-                            iconColor: 'green',
-                            icon: 'success',
-                            title: 'Email Send Successfully!'
-                            });
-                            $("#contact_form")[0].reset();
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: $(this).serialize(),
+                success: function (msg) {
+                    $("#contact_submit").text('Send Message');
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: 'top-right',
+                        customClass: {
+                            popup: 'colored-toast'
                         },
-                        error: function (data) {
-                            var response = JSON.parse(data.responseText);
-                            var errorString = '<ul class="list-disc">';
-                            $.each( response.errors, function( key, value) {
-                                errorString += '<li class="font-mono text-red-700">' + value + '</li>';
-                            });
-                            errorString += '</ul>';
-                            Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            html: errorString,
-                            })
-                            // alert(errorString);
-                        }
+                        showConfirmButton: false,
+                        timer: 5000,
+                        timerProgressBar: true
+                    })
+                    Toast.fire({
+                        iconColor: 'green',
+                        icon: 'success',
+                        title: 'Email Send Successfully!'
                     });
-                });
+                    $("#contact_form")[0].reset();
+                },
+                error: function (data) {
+                    $("#contact_submit").text('Send Message');
+                    var response = JSON.parse(data.responseText);
+                    var errorString = '<ul class="list-disc">';
+                    $.each(response.errors, function (key, value) {
+                        errorString += '<li class="font-mono text-red-700">' + value + '</li>';
+                    });
+                    errorString += '</ul>';
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        html: errorString,
+                    })
+                    // alert(errorString);
+                }
+            });
+        });
     </script>
     <script>
         const successfulLookup = position => {
-            const { latitude, longitude } = position.coords;
-            fetch(`https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=4e45cfb7703c4d5e82787ba6d4d3252a`)
+            const {
+                latitude,
+                longitude
+            } = position.coords;
+            fetch(
+                `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=4e45cfb7703c4d5e82787ba6d4d3252a`
+            )
                 .then(response => response.json())
                 .then((data) => {
                     $("input[name=user_adress]").val(data.results[0].formatted);
                 });
         }
-        const failedLookup =error =>{
+        const failedLookup = error => {
             $("input[name=user_adress]").val('User did not allow its location :(');
         }
         if (window.navigator.geolocation) {
             window.navigator.geolocation.getCurrentPosition(successfulLookup, failedLookup);
-        } 
+        }
     </script>
 </body>
 

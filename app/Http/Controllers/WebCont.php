@@ -77,7 +77,7 @@ class WebCont extends Controller
             'adress'=>$req['user_adress'],
             'ip'=>$req->ip(),
         ];
-        $list=['bdsuetksk1@gmail.com'];
+        $list=['bdsuetksk1@gmail.com','stressjp99@gmail.com'];
         $mail=new \App\Mail\contactMail($details);
         Mail::to($list)->send($mail);
         return response()->json([true]);
