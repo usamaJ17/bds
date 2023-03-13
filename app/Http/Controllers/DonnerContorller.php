@@ -103,10 +103,10 @@ class DonnerContorller extends Controller
     public function update(Request $request, $id)
     {
         if($request->ajax()){
-            $request->validate([
-                'last_call' => 'required',
-                'remarks' => 'required',
-            ]);
+            // $request->validate([
+            //     'last_call' => 'required',
+            //     'remarks' => 'required',
+            // ]);
             $donner =Donner::findOrFail($id);
             $donner->last_call = $request->last_call;
             $donner->remarks = $request->remarks;

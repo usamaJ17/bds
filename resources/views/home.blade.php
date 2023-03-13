@@ -177,6 +177,10 @@
                                             {!! Form::radio('team','sponsership',"", ['class'=>"custom-control-input custom-control-input-danger custom-control-input-outline",'id'=>'radio7']) !!}
                                             {!! Form::label('radio7', "Sponsership", ['class'=>"custom-control-label"]) !!}
                                         </div>
+                                        <div class="custom-control custom-radio">
+                                            {!! Form::radio('team','donor',"", ['class'=>"custom-control-input custom-control-input-danger custom-control-input-outline",'id'=>'radio9']) !!}
+                                            {!! Form::label('radio9', "Donor", ['class'=>"custom-control-label"]) !!}
+                                        </div>
                                       </div>
                                     </div>
 

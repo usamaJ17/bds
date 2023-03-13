@@ -383,7 +383,7 @@
                 </h2>
                 <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">At <strong>BDS UET KSK</strong> we
                     dont just invest in helping other but also in keeping track of our progress, Which keeps us
-                    motivated</p>
+                    motivated, Here is the progress of our 4 years, 2018-2022</p>
             </div>
             <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 text-center">
                 <div>
@@ -398,14 +398,14 @@
                     <h3 class="mb-2 text-2xl font-bold dark:text-white">
                         <p class="odometer" id="odometer_2">0</p>
                     </h3>
-                    <p class="font-light text-gray-500 dark:text-gray-400">Total Cases Solved</p>
+                    <p class="font-light text-gray-500 dark:text-gray-400">Total Donor Arranged</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-droplet mb-2 text-4xl text-red-600 md:w-12 md:h-12 dark:text-red-500"></i>
                     <h3 class="mb-2 text-2xl font-bold dark:text-white">
                         <p class="odometer" id="odometer_3">0</p>
                     </h3>
-                    <p class="font-light text-gray-500 dark:text-gray-400">Total Donor</p>
+                    <p class="font-light text-gray-500 dark:text-gray-400">Total Donor Bleeded</p>
                 </div>
                 <div>
                     <i
@@ -953,10 +953,10 @@
         var observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting === true)
                 setTimeout(function () {
-                    odometer_1.innerHTML = 1445;
-                    odometer_2.innerHTML = 986;
-                    odometer_3.innerHTML = 1357;
-                    odometer_4.innerHTML = 796;
+                    odometer_1.innerHTML = 2433;
+                    odometer_2.innerHTML = 1470;
+                    odometer_3.innerHTML = 980;
+                    odometer_4.innerHTML = 620450;
                 }, 200);
         }, {
             threshold: [0]
