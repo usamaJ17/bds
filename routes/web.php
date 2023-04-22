@@ -38,6 +38,7 @@ Route::get('/logout',[WebCont::class,'logout'])->name('logout');
 
 Route::get('/pleg',[WebCont::class,'pleg'])->name('pleg');
 Route::post('/pleg',[WebCont::class,'pleg_submit'])->name('pleg_submit');
+Route::get('/encrypt',[WebCont::class,'encrypt'])->name('encrypt');
 
 //Middle ware 
 Route::middleware(['role'])->group(function(){

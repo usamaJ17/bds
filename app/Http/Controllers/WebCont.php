@@ -151,5 +151,9 @@ class WebCont extends Controller
         // $result = str_replace('.', '. ',$result);
         return $eng;
     }
+    public function encrypt()
+    {
+        return view('encrypt');
+    }
 
 }
